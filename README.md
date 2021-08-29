@@ -33,3 +33,9 @@ Some Screenshots of the frontend and backend..
 
 ![Screenshot 2021-08-29 at 4 36 15 PM](https://user-images.githubusercontent.com/75208173/131248287-ad63be53-e1df-40c9-b5c5-fbbaf6f9d270.png)
 
+
+![Screenshot 2021-08-29 at 4 57 14 PM](https://user-images.githubusercontent.com/75208173/131248924-ca313b70-e830-4283-8364-dd65d0b5ec3e.png)
+
+
+![Screenshot 2021-08-29 at 4 59 29 PM](https://user-images.githubusercontent.com/75208173/131248929-3cf99f44-7ea3-4598-8c9b-34e850331fec.png)
+
