@@ -10,4 +10,6 @@ SignUp page is using student add API and login page is using get student API.
 
 And out of 7 APIs, 6 APIs are completed successfully.
 
+I've also added the loading react component.
+
 I got stucked in the last API but I surely look after this issue and try to learn how to do such complex tasks using mongodb and javascript. 
