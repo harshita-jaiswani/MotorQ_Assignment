@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Login Page</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous">
+</script>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form" method="Post" autocomplete="off" action="/login">
+                <input type="text" placeholder="Name" name='name' id="name" required>
+                <input type="text" placeholder="Roll Number" name="rn" id="rn" required>
+                <input type="password" placeholder="Password" name="password" id="password" required>
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword" required>
+                <input type='submit' name="submit" value="Create" class="submit"></input>
+                <p id="error1">{data}</p>
+                <p class="message">Already registered? <a href="#">Sign In</a></ p>
+            </form>
+            <form class="login-form" method="Post" autocomplete="off" action="/signup">
+                <input type="text" placeholder="Roll Number" name="rn" id="rnl" />
+                <input type="password" placeholder="password" name="password" id="password1" />
+                <input type="submit" name="submit" value="Login" class="submit"></input>
+                <p class="error2"></p>
+                <p class="message">Not registered? <a href="#" >Create an
+                        account</a></p>
+            </form>
+        </div>
+    </div>
+    <script>
+        $(".message a").click(function () {
+            $("form").animate({ height: "toggle", opacity: "toggle" },
+                "slow");
+        });
+    </script>
+</body>
+
+</html>
